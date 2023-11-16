@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-guru99_customer" class="navigator-link">
+              <span class="suite-name border-failed">guru99 customer</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-guru99_customer" class="navigator-link ">
+                    <span>C:\Users\tubby\eclipse-workspace\guru99\guru99.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-guru99_customer" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-guru99_customer" class="navigator-link ">
+                    <span>8 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-guru99_customer" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-guru99_customer" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-guru99_customer" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-guru99_customer" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 4 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-guru99_customer" class="hide-methods failed suite-guru99_customer"> (hide)</a> <!-- hide-methods failed suite-guru99_customer -->
+                      <a href="#" panel-name="suite-guru99_customer" class="show-methods failed suite-guru99_customer"> (show)</a> <!-- show-methods failed suite-guru99_customer -->
+                    </span>
+                    <div class="method-list-content failed suite-guru99_customer">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-guru99_customer" title="TestCases.TC_Login_Guru99_001" class="method navigator-link" hash-for-method="login([mngr527275, UmamEmU, hansika motvani, f, 7, 9, 2007, Melborne, Sydney, Australia, 33848322, 8748473...)">login([mngr527275, UmamEmU, hansika motvani, f, 7, 9, 2007, Melborne, Sydney, Australia, 33848322, 8748473...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-guru99_customer" title="TestCases.TC_Login_Guru99_001" class="method navigator-link" hash-for-method="login([mngr527275, UmamEmU, ayaansh, m, 2, 5, 2022, SouthHall London, london, Greenwich, 500047, 998540050...)">login([mngr527275, UmamEmU, ayaansh, m, 2, 5, 2022, SouthHall London, london, Greenwich, 500047, 998540050...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-guru99_customer" title="TestCases.TC_Login_Guru99_001" class="method navigator-link" hash-for-method="login([mkfjf111333, Unsmdkdq, , , , , , , , , , , , ])">login([mkfjf111333, Unsmdkdq, , , , , , , , , , , , ])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-guru99_customer" title="TestCases.TC_Login_Guru99_001" class="method navigator-link" hash-for-method="login([mngr527275, UmamEmU, abhilash, m, 21, 6, 1989, united states newyork, america, NewYork, 8989302, 98...)">login([mngr527275, UmamEmU, abhilash, m, 21, 6, 1989, united states newyork, america, NewYork, 8989302, 98...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-guru99_customer -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-guru99_customer" class="panel guru99_customer">
+          <div class="suite-guru99_customer-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.TC_Login_Guru99_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login([mngr527275, UmamEmU, hansika motvani, f, 7, 9, 2007, Melborne, Sydney, Australia, 33848322, 8748473...)">
+                  </a> <!-- login([mngr527275, UmamEmU, hansika motvani, f, 7, 9, 2007, Melborne, Sydney, Australia, 33848322, 8748473...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">([mngr527275, UmamEmU, hansika motvani, f, 7, 9, 2007, Melborne, Sydney, Australia, 33848322, 8748473382, , ])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at TestCases.TC_Login_Guru99_001.login(TC_Login_Guru99_001.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login([mngr527275, UmamEmU, ayaansh, m, 2, 5, 2022, SouthHall London, london, Greenwich, 500047, 998540050...)">
+                  </a> <!-- login([mngr527275, UmamEmU, ayaansh, m, 2, 5, 2022, SouthHall London, london, Greenwich, 500047, 998540050...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">([mngr527275, UmamEmU, ayaansh, m, 2, 5, 2022, SouthHall London, london, Greenwich, 500047, 9985400503, , ])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at TestCases.TC_Login_Guru99_001.login(TC_Login_Guru99_001.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login([mkfjf111333, Unsmdkdq, , , , , , , , , , , , ])">
+                  </a> <!-- login([mkfjf111333, Unsmdkdq, , , , , , , , , , , , ]) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">([mkfjf111333, Unsmdkdq, , , , , , , , , , , , ])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at TestCases.TC_Login_Guru99_001.login(TC_Login_Guru99_001.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login([mngr527275, UmamEmU, abhilash, m, 21, 6, 1989, united states newyork, america, NewYork, 8989302, 98...)">
+                  </a> <!-- login([mngr527275, UmamEmU, abhilash, m, 21, 6, 1989, united states newyork, america, NewYork, 8989302, 98...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">([mngr527275, UmamEmU, abhilash, m, 21, 6, 1989, united states newyork, america, NewYork, 8989302, 9849131345, , ])</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at TestCases.TC_Login_Guru99_001.login(TC_Login_Guru99_001.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-guru99_customer-class-failed -->
+        </div> <!-- panel guru99_customer -->
+        <div panel-name="test-xml-guru99_customer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\tubby\eclipse-workspace\guru99\guru99.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;guru99 customer&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;TestCases.Implementation&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Guru99&quot;&gt;
+    &lt;parameter name=&quot;author&quot; value=&quot;ayaansh&quot;/&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.demo.guru99.com/V4/index.php&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TC_Login_Guru99_001&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Guru99 --&gt;
+&lt;/suite&gt; &lt;!-- guru99 customer --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-guru99_customer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for guru99 customer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Guru99 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-guru99_customer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for guru99 customer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">blackbox</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">daily build</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">weekly build</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">whitebox</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-guru99_customer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for guru99 customer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_guru99_customer');
+function tableData_guru99_customer() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'TestCases.TC_Login_Guru99_001')
+data.setCell(0, 3, 3115);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'TestCases.TC_Login_Guru99_001')
+data.setCell(1, 3, 2002);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'TestCases.TC_Login_Guru99_001')
+data.setCell(2, 3, 1544);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'TestCases.TC_Login_Guru99_001')
+data.setCell(3, 3, 1488);
+window.suiteTableData['guru99_customer']= { tableData: data, tableDiv: 'times-div-guru99_customer'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-guru99_customer">
+              </div> <!-- times-div-guru99_customer -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-guru99_customer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for guru99 customer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-guru99_customer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-guru99_customer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_Login_Guru99_001</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentReports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">initialiseBrowser(org.testng.TestRunner@45984654, chrome, https://www.demo.guru99.com/V4/index.php)</span>
+                <span class="method-start">343 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">groupsstatus(public void TestCases.TC_Login_Guru99_001.login(java.lang.Object[]) throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">11598 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login([mngr527275, UmamEmU, ayaansh, m, 2, 5, 2022, SouthHall London, london, Greenwich, 500047, 998540050...)</span>
+                <span class="method-start">11600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">failedStatus([TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, i...)</span>
+                <span class="method-start">14238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">groupsstatus(public void TestCases.TC_Login_Guru99_001.login(java.lang.Object[]) throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">14721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login([mngr527275, UmamEmU, abhilash, m, 21, 6, 1989, united states newyork, america, NewYork, 8989302, 98...)</span>
+                <span class="method-start">14723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">failedStatus([TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, i...)</span>
+                <span class="method-start">16903 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login([mngr527275, UmamEmU, hansika motvani, f, 7, 9, 2007, Melborne, Sydney, Australia, 33848322, 8748473...)</span>
+                <span class="method-start">17382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">groupsstatus(public void TestCases.TC_Login_Guru99_001.login(java.lang.Object[]) throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">17382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">failedStatus([TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, i...)</span>
+                <span class="method-start">19443 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">groupsstatus(public void TestCases.TC_Login_Guru99_001.login(java.lang.Object[]) throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">19862 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login([mkfjf111333, Unsmdkdq, , , , , , , , , , , , ])</span>
+                <span class="method-start">19863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">failedStatus([TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, i...)</span>
+                <span class="method-start">23468 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23939 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReports</span>
+                <span class="method-start">24558 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

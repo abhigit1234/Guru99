@@ -1,0 +1,5 @@
+19:19:47 [main] INFO  TestCases.BaseClass - user entered name
+19:19:48 [main] INFO  TestCases.BaseClass - user entered password
+19:19:48 [main] INFO  TestCases.BaseClass - user clicked login button
+19:19:49 [main] INFO  TestCases.BaseClass - user accepted alert
+19:19:51 [main] INFO  TestCases.BaseClass - driver closed

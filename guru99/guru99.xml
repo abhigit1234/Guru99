@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="guru99 customer">
+<listeners>
+<listener class-name="TestCases.Implementation"/>
+</listeners>
+  <test  name="Guru99">
+ <parameter name="browsername" value="chrome"/>
+ <parameter name="url" value="https://www.demo.guru99.com/V4/index.php"/>
+    <parameter name="author" value="ayaansh"/>
+    <classes>
+      <class name="TestCases.TC_Login_Guru99_001"/>
+    </classes>
+  </test>
+</suite>
