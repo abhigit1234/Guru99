@@ -28,7 +28,7 @@ public class TC_Login_Guru99_001 extends BaseClass {
 		pom.set_username(s[0]);
 		extenttest.info("password entered");
 		logger.info("user entered password");
-		pom.set_pswd(s[0]);
+		pom.set_pswd(s[1]);
 		extenttest.info("clicked on login button");
 		logger.info("user clicked login button");
 		pom.click_login();
