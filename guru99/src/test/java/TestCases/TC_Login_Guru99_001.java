@@ -50,6 +50,7 @@ public class TC_Login_Guru99_001 extends BaseClass {
 		pom.verify_id();
 		extenttest.info("clicked on new customer");
 		logger.info("clicked on new customer");
+		Thread.sleep(2000);
 		pom.click_newcust();
 		Thread.sleep(4000);
 		extenttest.info("customer name entered");

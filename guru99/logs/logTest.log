@@ -1,5 +1,11 @@
-19:19:47 [main] INFO  TestCases.BaseClass - user entered name
-19:19:48 [main] INFO  TestCases.BaseClass - user entered password
-19:19:48 [main] INFO  TestCases.BaseClass - user clicked login button
-19:19:49 [main] INFO  TestCases.BaseClass - user accepted alert
-19:19:51 [main] INFO  TestCases.BaseClass - driver closed
+19:20:55 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+19:20:55 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbookpr03a5type
+19:20:55 [main] INFO  TestCases.BaseClass - user entered name
+19:20:55 [main] INFO  TestCases.BaseClass - user entered password
+19:20:55 [main] INFO  TestCases.BaseClass - user clicked login button
+19:20:57 [main] INFO  TestCases.BaseClass - no alert is shown
+19:20:57 [main] INFO  TestCases.BaseClass - manager id verified
+19:21:39 [main] INFO  TestCases.BaseClass - user entered name
+19:22:20 [main] INFO  TestCases.BaseClass - user entered name
+19:23:02 [main] INFO  TestCases.BaseClass - user entered name
+19:23:08 [main] INFO  TestCases.BaseClass - driver closed

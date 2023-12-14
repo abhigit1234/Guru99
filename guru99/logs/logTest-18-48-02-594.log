@@ -1,0 +1,12 @@
+19:19:47 [main] INFO  TestCases.BaseClass - user entered name
+19:19:48 [main] INFO  TestCases.BaseClass - user entered password
+19:19:48 [main] INFO  TestCases.BaseClass - user clicked login button
+19:19:49 [main] INFO  TestCases.BaseClass - user accepted alert
+19:19:51 [main] INFO  TestCases.BaseClass - driver closed
+18:48:00 [main] INFO  TestCases.BaseClass - browser opened
+18:48:02 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+18:48:02 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+18:48:02 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+18:48:02 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5328a9c1
+18:48:02 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+18:48:02 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 21

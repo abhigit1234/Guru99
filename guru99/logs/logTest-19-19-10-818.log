@@ -1,0 +1,13 @@
+18:59:02 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+18:59:02 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbookpr03a5type
+18:59:02 [main] INFO  TestCases.BaseClass - user entered name
+18:59:02 [main] INFO  TestCases.BaseClass - user entered password
+18:59:02 [main] INFO  TestCases.BaseClass - user clicked login button
+18:59:04 [main] INFO  TestCases.BaseClass - no alert is shown
+18:59:04 [main] INFO  TestCases.BaseClass - manager id verified
+18:59:46 [main] INFO  TestCases.BaseClass - user entered name
+19:00:07 [main] INFO  TestCases.BaseClass - driver closed
+19:19:07 [main] INFO  TestCases.BaseClass - browser opened
+19:19:10 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+19:19:10 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+19:19:10 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4

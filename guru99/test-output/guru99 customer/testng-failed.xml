@@ -14,8 +14,8 @@
           <include name="failedStatus"/>
           <include name="initialiseBrowser"/>
           <include name="tearDown"/>
-          <include name="groupsstatus"/>
           <include name="extentReports"/>
+          <include name="groupsstatus"/>
           <include name="login" invocation-numbers="0 1 2 3"/>
           <include name="generateReports"/>
         </methods>
