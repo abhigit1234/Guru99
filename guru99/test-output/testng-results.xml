@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-02T18:47:58 IST" name="guru99 customer" finished-at="2023-12-02T18:48:29 IST" duration-ms="30943">
+  <suite started-at="2024-02-06T10:13:33 IST" name="guru99 customer" finished-at="2024-02-06T10:13:56 IST" duration-ms="23533">
     <groups>
       <group name="whitebox">
-        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" name="login" class="TestCases.TC_Login_Guru99_001"/>
+        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" name="login" class="TestCases.TC_Login_Guru99_001"/>
       </group> <!-- whitebox -->
       <group name="functional">
-        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" name="login" class="TestCases.TC_Login_Guru99_001"/>
+        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" name="login" class="TestCases.TC_Login_Guru99_001"/>
       </group> <!-- functional -->
       <group name="blackbox">
-        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" name="login" class="TestCases.TC_Login_Guru99_001"/>
+        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" name="login" class="TestCases.TC_Login_Guru99_001"/>
       </group> <!-- blackbox -->
       <group name="daily build">
-        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" name="login" class="TestCases.TC_Login_Guru99_001"/>
+        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" name="login" class="TestCases.TC_Login_Guru99_001"/>
       </group> <!-- daily build -->
       <group name="weekly build">
-        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" name="login" class="TestCases.TC_Login_Guru99_001"/>
+        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" name="login" class="TestCases.TC_Login_Guru99_001"/>
       </group> <!-- weekly build -->
       <group name="regression">
-        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" name="login" class="TestCases.TC_Login_Guru99_001"/>
+        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" name="login" class="TestCases.TC_Login_Guru99_001"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" name="login" class="TestCases.TC_Login_Guru99_001"/>
+        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" name="login" class="TestCases.TC_Login_Guru99_001"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" name="login" class="TestCases.TC_Login_Guru99_001"/>
+        <method signature="TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" name="login" class="TestCases.TC_Login_Guru99_001"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-12-02T18:47:58 IST" name="Guru99" finished-at="2023-12-02T18:48:29 IST" duration-ms="30943">
+    <test started-at="2024-02-06T10:13:33 IST" name="Guru99" finished-at="2024-02-06T10:13:56 IST" duration-ms="23533">
       <class name="TestCases.TC_Login_Guru99_001">
-        <test-method is-config="true" signature="extentReports()[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:47:58 IST" name="extentReports" finished-at="2023-12-02T18:47:58 IST" duration-ms="695" status="PASS">
+        <test-method is-config="true" signature="extentReports()[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:33 IST" name="extentReports" finished-at="2024-02-06T10:13:33 IST" duration-ms="422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReports -->
-        <test-method is-config="true" signature="initialiseBrowser(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:47:58 IST" name="initialiseBrowser" finished-at="2023-12-02T18:48:10 IST" duration-ms="11474" status="PASS">
+        <test-method is-config="true" signature="initialiseBrowser(org.testng.ITestContext,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:33 IST" name="initialiseBrowser" finished-at="2024-02-06T10:13:41 IST" duration-ms="8331" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1de5cc88]]>
+                <![CDATA[org.testng.TestRunner@23e2c1ca]]>
               </value>
             </param>
             <param index="1">
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method is-config="true" signature="groupsstatus(java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:11 IST" name="groupsstatus" finished-at="2023-12-02T18:48:11 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="groupsstatus(java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:42 IST" name="groupsstatus" finished-at="2024-02-06T10:13:42 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- groupsstatus -->
-        <test-method signature="login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:11 IST" name="login" data-provider="Guru_Customer_Details" finished-at="2023-12-02T18:48:13 IST" duration-ms="1967" status="FAIL">
+        <test-method signature="login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:42 IST" name="login" data-provider="Guru_Customer_Details" finished-at="2024-02-06T10:13:44 IST" duration-ms="1709" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@5600a5da]]>
+                <![CDATA[[Ljava.lang.Object;@269222ae]]>
               </value>
             </param>
           </params>
@@ -118,11 +118,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="failedStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:15 IST" name="failedStatus" finished-at="2023-12-02T18:48:16 IST" duration-ms="669" status="PASS">
+        <test-method is-config="true" signature="failedStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:45 IST" name="failedStatus" finished-at="2024-02-06T10:13:45 IST" duration-ms="395" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478] output={null}]]]>
+                <![CDATA[[TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -134,7 +134,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedStatus -->
-        <test-method is-config="true" signature="groupsstatus(java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:16 IST" name="groupsstatus" finished-at="2023-12-02T18:48:16 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="groupsstatus(java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:45 IST" name="groupsstatus" finished-at="2024-02-06T10:13:45 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,85 +145,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- groupsstatus -->
-        <test-method signature="login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:16 IST" name="login" data-provider="Guru_Customer_Details" finished-at="2023-12-02T18:48:18 IST" duration-ms="2175" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@5eed6dfb]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at TestCases.TC_Login_Guru99_001.login(TC_Login_Guru99_001.java:41)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="failedStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:19 IST" name="failedStatus" finished-at="2023-12-02T18:48:19 IST" duration-ms="733" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void TestCases.TC_Login_Guru99_001.login(java.lang.Object[]) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- failedStatus -->
-        <test-method is-config="true" signature="groupsstatus(java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:19 IST" name="groupsstatus" finished-at="2023-12-02T18:48:19 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestCases.TC_Login_Guru99_001.login(java.lang.Object[]) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- groupsstatus -->
-        <test-method signature="login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:19 IST" name="login" data-provider="Guru_Customer_Details" finished-at="2023-12-02T18:48:22 IST" duration-ms="2623" status="FAIL">
+        <test-method signature="login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:45 IST" name="login" data-provider="Guru_Customer_Details" finished-at="2024-02-06T10:13:48 IST" duration-ms="2354" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -274,11 +196,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="failedStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:23 IST" name="failedStatus" finished-at="2023-12-02T18:48:24 IST" duration-ms="745" status="PASS">
+        <test-method is-config="true" signature="failedStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:48 IST" name="failedStatus" finished-at="2024-02-06T10:13:48 IST" duration-ms="341" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478] output={null}]]]>
+                <![CDATA[[TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -290,7 +212,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedStatus -->
-        <test-method is-config="true" signature="groupsstatus(java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:24 IST" name="groupsstatus" finished-at="2023-12-02T18:48:24 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="groupsstatus(java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:48 IST" name="groupsstatus" finished-at="2024-02-06T10:13:48 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -301,11 +223,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- groupsstatus -->
-        <test-method signature="login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:24 IST" name="login" data-provider="Guru_Customer_Details" finished-at="2023-12-02T18:48:27 IST" duration-ms="3454" status="FAIL">
+        <test-method signature="login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:48 IST" name="login" data-provider="Guru_Customer_Details" finished-at="2024-02-06T10:13:52 IST" duration-ms="3578" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@56a4abd0]]>
+                <![CDATA[[Ljava.lang.Object;@5600a5da]]>
               </value>
             </param>
           </params>
@@ -352,11 +274,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="failedStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:28 IST" name="failedStatus" finished-at="2023-12-02T18:48:29 IST" duration-ms="763" status="PASS">
+        <test-method is-config="true" signature="failedStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:53 IST" name="failedStatus" finished-at="2024-02-06T10:13:53 IST" duration-ms="345" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478] output={null}]]]>
+                <![CDATA[[TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -368,11 +290,89 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedStatus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:29 IST" name="tearDown" finished-at="2023-12-02T18:48:29 IST" duration-ms="492" status="PASS">
+        <test-method is-config="true" signature="groupsstatus(java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:53 IST" name="groupsstatus" finished-at="2024-02-06T10:13:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TC_Login_Guru99_001.login(java.lang.Object[]) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupsstatus -->
+        <test-method signature="login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:53 IST" name="login" data-provider="Guru_Customer_Details" finished-at="2024-02-06T10:13:55 IST" duration-ms="1631" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@13250132]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at TestCases.TC_Login_Guru99_001.login(TC_Login_Guru99_001.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="failedStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:56 IST" name="failedStatus" finished-at="2024-02-06T10:13:56 IST" duration-ms="507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=FAILURE method=TC_Login_Guru99_001.login([Ljava.lang.Object;)[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void TestCases.TC_Login_Guru99_001.login(java.lang.Object[]) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:56 IST" name="tearDown" finished-at="2024-02-06T10:13:56 IST" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="generateReports()[pri:0, instance:TestCases.TC_Login_Guru99_001@662ac478]" started-at="2023-12-02T18:48:29 IST" name="generateReports" finished-at="2023-12-02T18:48:31 IST" duration-ms="2076" status="PASS">
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:TestCases.TC_Login_Guru99_001@3c9754d8]" started-at="2024-02-06T10:13:57 IST" name="generateReports" finished-at="2024-02-06T10:13:58 IST" duration-ms="1292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReports -->

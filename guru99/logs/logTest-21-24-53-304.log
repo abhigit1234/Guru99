@@ -1,0 +1,14 @@
+21:24:44 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+21:24:44 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbookpr03a5type
+21:24:44 [main] INFO  TestCases.BaseClass - user entered name
+21:24:44 [main] INFO  TestCases.BaseClass - user entered password
+21:24:44 [main] INFO  TestCases.BaseClass - user clicked login button
+21:24:45 [main] INFO  TestCases.BaseClass - user accepted alert
+21:24:47 [main] INFO  TestCases.BaseClass - user entered name
+21:24:47 [main] INFO  TestCases.BaseClass - user entered password
+21:24:47 [main] INFO  TestCases.BaseClass - user clicked login button
+21:24:48 [main] INFO  TestCases.BaseClass - user accepted alert
+21:24:50 [main] INFO  TestCases.BaseClass - user entered name
+21:24:50 [main] INFO  TestCases.BaseClass - user entered password
+21:24:50 [main] INFO  TestCases.BaseClass - user clicked login button
+21:24:50 [main] INFO  TestCases.BaseClass - user accepted alert

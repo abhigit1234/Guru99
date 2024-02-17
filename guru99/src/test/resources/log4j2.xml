@@ -6,15 +6,15 @@
 	<Appenders>
 		<RollingFile name="file"
 			fileName="${filename}/logTest.log"
-			filePattern="${filename}/logTest-%d{HH-mm-ss-SSS}.log">
+			filePattern="${filename}/logTest-%d{dd-MMM-yyyy HH-mm-ss-SSS}.log">
 			<PatternLayout>
-				<pattern>%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</pattern>
+				<pattern>%d{dd-MMM-yyyy HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</pattern>
 			</PatternLayout>
 			<SizeBasedTriggeringPolicy size="1 KB" />
 		</RollingFile>
 		<Console name="ABHI" target="SYSTEM_OUT">
 			<PatternLayout
-				pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
+				pattern="%d{dd-MMM-yyyy HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />
 		</Console>
 	</Appenders>
 	<Loggers>
