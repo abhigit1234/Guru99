@@ -90,7 +90,7 @@ public class BaseClass {
 		timestamp = new SimpleDateFormat("dd.MMM.yyyy.HH.mm.ss").format(new Date());
 		 repname = "Test_Report"+timestamp+".html";
 		extent = new ExtentReports();
-		spark = new ExtentSparkReporter("user.dir"+"\\guru99\\"+repname);
+		spark = new ExtentSparkReporter("\\guru99\\"+repname);
 		extent.attachReporter(spark);
 		extent.setSystemInfo("os name", System.getProperty("os.name"));
 		extent.setSystemInfo("os version", System.getProperty("os.version"));
@@ -105,7 +105,7 @@ public class BaseClass {
 	@AfterSuite
 	public void generateReports() throws IOException {
 		extent.flush();
-		Desktop.getDesktop().browse(new File("user.dir"+"\\guru99\\"+repname).toURI());
+		Desktop.getDesktop().browse(new File("\\guru99\\"+repname).toURI());
 	}
 	@BeforeMethod
 	public void groupsstatus(Method m) {
